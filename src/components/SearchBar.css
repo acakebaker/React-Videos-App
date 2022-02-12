@@ -1,0 +1,29 @@
+.search-field {
+   max-width: 100%;
+   padding: 20px 0;
+}
+
+.input-field {
+   background: #4d5055;
+   width: 100%;
+   border: 0px;
+   outline: none;
+   padding: 10px 25px;
+   font-size: 25px;
+   border-radius: 60px;
+   border: 2px solid transparent;
+   transition: ease-in .2s;
+   color: white;
+}
+
+.input-field:hover {
+   background: #56595f;
+}
+
+.input-field:focus {
+   box-shadow: 0 0 5px tomato;
+}
+
+.input-field::placeholder, .input-field::-ms-input-placeholder {
+   color: #767b83;
+}
